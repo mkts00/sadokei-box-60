@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="description" content="砂どけい箱 60は、受験生のスマホを60分だけ机から離す架空商品のLPです。砂が落ちきるまでフタが開かない木のスマホ箱。" />
+    <meta property="og:title" content="砂どけい箱 60 | 受験生のためのスマホ休憩箱" />
+    <meta property="og:description" content="親子で揉めずに、最初の60分を始める。砂時計つき木製スマホボックスの架空LP。" />
+    <meta property="og:image" content="public/img/lp-senshuken-01-main.png" />
+    <meta name="theme-color" content="#f6f0e6" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="src/styles-v4.css" />
+    <link rel="icon" href="public/favicon.svg" />
+    <title>砂どけい箱 60 | 受験生のためのスマホ休憩箱</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">本文へ移動</a>
+    <div class="ambient" aria-hidden="true">
+      <canvas id="sandCanvas"></canvas>
+      <div class="grain"></div>
+      <div class="desk-line desk-line-a"></div>
+      <div class="desk-line desk-line-b"></div>
+    </div>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="砂どけい箱 60 トップへ">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" role="img">
+            <path d="M18 10h28M18 54h28M24 10c0 10 16 10 16 22S24 44 24 54M40 10c0 10-16 10-16 22s16 12 16 22" />
+            <path d="M29 33h6M27 47h10" />
+          </svg>
+        </span>
+        <span>砂どけい箱 60</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="メニューを開閉" aria-expanded="false" data-menu-toggle>
+        <span></span><span></span>
+      </button>
+      <nav class="nav-links" aria-label="主要ナビゲーション" data-nav>
+        <a href="#how">使い方</a>
+        <a href="#features">特長</a>
+        <a href="#scene">勉強前の流れ</a>
+        <a href="#pricing">価格</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">受験生の母へ</p>
+          <h1 id="hero-title" class="hero-title">
+            <span class="title-line reveal">スマホを責めずに、</span>
+            <span class="title-line reveal">最初の<span class="accent-text">60分</span>を守る。</span>
+          </h1>
+          <figure class="hero-mobile-visual reveal">
+            <img src="public/img/sadokei-study-scene-v1.png" alt="砂どけい箱を机に置いて勉強を始める受験生" width="1536" height="1024" />
+            <figcaption>
+              <span>砂が落ちるまで、開かない。</span>
+              <b>60 min</b>
+            </figcaption>
+          </figure>
+          <p class="hero-lead reveal">
+            木の箱にスマホを1台。右端の砂時計を返すと、砂が落ちきるまでフタが開かない。
+            親子の言い合いを増やさず、勉強のはじまりを机の上につくります。
+          </p>
+          <div class="hero-actions reveal" aria-label="主要アクション">
+            <a class="btn primary magnetic" href="#pricing">3,980円で検討する</a>
+            <a class="btn secondary" href="#how">動きを見る</a>
+          </div>
+          <p class="hero-note reveal">購入ボタンは飾りです。本物の決済・申込には進みません。</p>
+        </div>
+
+        <div class="hero-stage reveal" data-tilt>
+          <img class="hero-product" src="public/img/lp-senshuken-04-cutout.png" alt="木目のスマホボックスと右端の砂時計" width="1536" height="1024" />
+          <div class="hero-shadow"></div>
+          <div class="float-tag tag-time"><span>60</span>min</div>
+          <div class="float-tag tag-price">¥<span>3,980</span></div>
+        </div>
+
+        <div class="scroll-cue" aria-hidden="true">
+          <span></span>
+          <b>SCROLL</b>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="商品設定">
+        <div class="marquee" aria-hidden="true">
+          <div class="marquee-track">
+            <span>スマホ1台</span><span>木の箱</span><span>砂時計ロック</span><span>60分</span><span>受験勉強</span>
+            <span>スマホ1台</span><span>木の箱</span><span>砂時計ロック</span><span>60分</span><span>受験勉強</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="problem-wall" aria-labelledby="problem-title">
+        <div class="section-kicker reveal">BEFORE THE BOX</div>
+        <div class="section-head">
+          <h2 id="problem-title" class="reveal">スマホが悪いんじゃない。<br />近すぎる夜がある。</h2>
+          <p class="reveal">言えば言うほど、親子の空気は重くなる。必要なのは没収ではなく、勉強を始める間だけ、そっと距離をつくることでした。</p>
+        </div>
+        <div class="problem-grid">
+          <article class="problem-card problem-photo night reveal">
+            <img src="public/img/problem-night-v1.png" alt="夜、布団の中でスマホを見続ける受験生" width="1536" height="1024" loading="lazy" />
+            <div class="problem-copy">
+              <span>あるある 01</span>
+              <h3>寝る前の「少しだけ」が、<br />明日の朝を重くする。</h3>
+              <p>通知をひとつ見るつもりが、気づけば眠る時間がずれていく。</p>
+            </div>
+          </article>
+          <article class="problem-card problem-photo desk reveal">
+            <img src="public/img/problem-desk-v1.png" alt="勉強中に机のスマホへ手を伸ばしかける受験生" width="1536" height="1024" loading="lazy" />
+            <div class="problem-copy">
+              <span>あるある 02</span>
+              <h3>机にある。<br />それだけで集中はほどける。</h3>
+              <p>問題集を開いても、手の届く場所にあるだけで気持ちが揺れる。</p>
+            </div>
+          </article>
+          <article class="problem-card problem-photo focus reveal">
+            <img src="public/img/problem-focus-v1.png" alt="スマホを離れた棚に置き、過去問に集中する受験生" width="1536" height="1024" loading="lazy" />
+            <div class="problem-copy">
+              <span>だから 03</span>
+              <h3>大事な最初の60分だけ、<br />手の届かない場所へ。</h3>
+              <p>ずっと我慢するのではなく、始める時間だけを守る。</p>
+            </div>
+          </article>
+          <article class="problem-card problem-photo balance reveal">
+            <img src="public/img/problem-balance-v1.png" alt="勉強を終えて部活へ出かける準備をする受験生" width="1536" height="1024" loading="lazy" />
+            <div class="problem-copy">
+              <span>だから 04</span>
+              <h3>禁止ではなく、<br />使う時間と離れる時間を分ける。</h3>
+              <p>本人も母も悪者にしない。ルールを砂時計に預けます。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="split-section" id="how" aria-labelledby="how-title">
+        <div class="section-kicker reveal">HOW IT WORKS</div>
+        <div class="section-head">
+          <h2 id="how-title" class="reveal">砂が落ちるまで、フタは開かない。</h2>
+          <p class="reveal">操作は説明しすぎないほど単純に。親が管理するのではなく、時間を砂時計に預けます。</p>
+        </div>
+        <div class="steps">
+          <article class="step-card reveal">
+            <span class="num">01</span>
+            <h3>スマホを入れる</h3>
+            <p>勉強前にスマホを1台、木箱の中へ。写真の通り、内側にはスマホを置くスペースがあります。</p>
+          </article>
+          <article class="step-card reveal">
+            <span class="num">02</span>
+            <h3>砂時計を返す</h3>
+            <p>右端の砂時計をひっくり返すと、砂が落ちきるまでフタが開かない設定です。</p>
+          </article>
+          <article class="step-card reveal">
+            <span class="num">03</span>
+            <h3>60分だけ机へ戻る</h3>
+            <p>通知を追う前に、まず1コマ。終わったら休憩や連絡の時間を親子で決められます。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery-band" aria-label="商品写真">
+        <figure class="product-frame reveal">
+          <img src="public/img/lp-senshuken-02-open.png" alt="フタを開けた木製ボックスの中にスマホが入っている様子" width="1024" height="1024" loading="lazy" />
+          <figcaption>スマホが1台入る構造。写真にない機能は足していません。</figcaption>
+        </figure>
+        <figure class="product-frame tall reveal">
+          <img src="public/img/lp-senshuken-03-detail.png" alt="白い砂が落ちている砂時計のアップ" width="1024" height="1024" loading="lazy" />
+          <figcaption>右端の砂時計が、この商品の主役です。</figcaption>
+        </figure>
+      </section>
+
+      <section class="features" id="features" aria-labelledby="features-title">
+        <div class="section-kicker reveal">WHY IT WORKS</div>
+        <div class="section-head">
+          <h2 id="features-title" class="reveal">受験生の母が、毎晩言わなくて済むように。</h2>
+          <p class="reveal">「スマホやめなさい」を何度も言うほど、家の空気は重くなる。だから、箱の役割は管理ではなく、始める儀式です。</p>
+        </div>
+        <div class="values-intro reveal" aria-label="砂どけい箱が提供する3つの価値">
+          <p>SADO-KEI BOX 60</p>
+          <h3>提供する3つの価値</h3>
+          <div class="value-tabs">
+            <span>距離をつくる</span>
+            <span>時間を見せる</span>
+            <span>約束を続ける</span>
+          </div>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <span class="icon-line" aria-hidden="true">⌛</span>
+            <h3>残り時間が、砂で見える</h3>
+            <p>数字のカウントではなく、白い砂が落ちる様子で時間を感じられます。通知音もありません。</p>
+          </article>
+          <article class="feature-card reveal">
+            <span class="icon-line" aria-hidden="true">▭</span>
+            <h3>スマホを休ませる木の場所</h3>
+            <p>木目の箱にしまうだけ。罰の道具ではなく、机に置ける文具のように見せています。</p>
+          </article>
+          <article class="feature-card reveal">
+            <span class="icon-line" aria-hidden="true">…</span>
+            <h3>声かけを、砂時計に任せる</h3>
+            <p>「あと5分だけ」のやりとりを減らし、親が見張る時間を少なくします。</p>
+          </article>
+          <article class="feature-card reveal">
+            <span class="icon-line" aria-hidden="true">60</span>
+            <h3>長すぎない1コマ設計</h3>
+            <p>英単語、過去問、復習。最初の1コマを守るための60分です。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="scene" id="scene" aria-labelledby="scene-title">
+        <div class="scene-panel">
+          <div class="scene-copy reveal">
+            <p class="section-kicker">STUDY RITUAL</p>
+            <h2 id="scene-title">「取り上げる」ではなく、<br />「預けて始める」。</h2>
+            <p>
+              受験期のスマホ対策は、正しさだけでは続きません。本人の気持ちを折らず、
+              親の声量も上げず、始めるタイミングを物に預ける。砂どけい箱 60は、そのための小さな儀式です。
+            </p>
+          </div>
+          <div class="ritual-board reveal" aria-label="勉強前の流れ">
+            <div class="ritual-row"><span>18:55</span><b>スマホを箱へ</b></div>
+            <div class="ritual-row active"><span>19:00</span><b>砂時計を返す</b></div>
+            <div class="ritual-row"><span>20:00</span><b>休憩と連絡</b></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-lab" aria-labelledby="case-title">
+        <div class="section-kicker reveal">PHYSICAL RULE</div>
+        <div class="section-head">
+          <h2 id="case-title" class="reveal">アプリで我慢しない。<br />物理で距離をつくる。</h2>
+          <p class="reveal">参考画像のような「ケース別」の見せ方を、砂どけい箱用に置き換えました。鍵を足さず、砂時計そのものをルールにします。</p>
+        </div>
+        <div class="case-board">
+          <article class="case-card reveal">
+            <div class="case-label">case.1</div>
+            <figure class="case-photo">
+              <img src="public/img/case-place-phone-v1.png" alt="木製ボックスにスマホを入れる手元" width="1536" height="1024" loading="lazy" />
+              <figcaption>PLACE THE PHONE</figcaption>
+            </figure>
+            <div class="case-copy">
+              <h3>本体は、机の上で見える場所に。</h3>
+              <p>隠すのではなく、勉強机に置いたまま距離を作る。だから「どこに置いたっけ」が起きにくい。</p>
+            </div>
+          </article>
+          <article class="case-card reveal">
+            <div class="case-label">case.2</div>
+            <figure class="case-photo">
+              <img src="public/img/case-turn-hourglass-v1.png" alt="木製ボックス右端の砂時計を返す手元" width="1536" height="1024" loading="lazy" />
+              <figcaption>TURN THE HOURGLASS</figcaption>
+            </figure>
+            <div class="case-copy">
+              <h3>開けるタイミングは、砂が決める。</h3>
+              <p>親が言い続ける代わりに、白い砂が残り時間を示します。約束が目に見えるだけで、揉めごとは少し減らせる。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="habit-section" aria-labelledby="habit-title">
+        <div class="habit-copy reveal">
+          <p class="section-kicker">KEEP GOING</p>
+          <h2 id="habit-title">脱・三日坊主。<br />使い方を話し合おう。</h2>
+          <p>毎日ずっと閉じ込める道具にしない。使う時間、連絡する時間、休む時間を先に決めるから、親子の約束として続けやすい。</p>
+        </div>
+        <div class="promise-sheet reveal" aria-label="約束カードのイメージ">
+          <div class="sheet-pin"></div>
+          <h3>わが家のスマホ休憩メモ</h3>
+          <dl>
+            <div><dt>使う場面</dt><dd>過去問・暗記の最初の60分</dd></div>
+            <div><dt>終わったら</dt><dd>休憩と連絡を10分</dd></div>
+            <div><dt>声かけ</dt><dd>砂時計を見てから相談</dd></div>
+          </dl>
+          <p>※記入例は架空</p>
+        </div>
+      </section>
+
+      <section class="pricing" id="pricing" aria-labelledby="pricing-title">
+        <div class="price-card reveal">
+          <div>
+            <p class="section-kicker">PRICE</p>
+            <h2 id="pricing-title">価格は、3,980円。</h2>
+            <p>本物の購入導線はありません。LP選手権用に、同系統商品の価格感に合わせた架空設定です。</p>
+          </div>
+          <div class="price-stack" aria-label="価格">
+            <span>税込想定</span>
+            <strong><small>¥</small><span data-count="3980">0</span></strong>
+            <em>※架空</em>
+          </div>
+          <a class="btn primary magnetic fake-buy" href="#faq" aria-label="購入ボタンは飾りです">飾りの購入ボタン</a>
+        </div>
+        <div class="stat-row" aria-label="架空の商品設定">
+          <div class="stat reveal"><strong data-count="60">0</strong><span>分だけ区切る</span><small>※架空の設定</small></div>
+          <div class="stat reveal"><strong data-count="1">0</strong><span>スマホ1台分</span></div>
+          <div class="stat reveal"><strong data-count="3980">0</strong><span>円の価格感</span><small>※架空</small></div>
+        </div>
+      </section>
+
+      <section class="faq" id="faq" aria-labelledby="faq-title">
+        <div class="section-kicker reveal">FAQ</div>
+        <div class="section-head">
+          <h2 id="faq-title" class="reveal">買う前に、誤解をほどく。</h2>
+          <p class="reveal">画像とルールから外れることは書きません。ここでの設定は、LP選手権のためのものです。</p>
+        </div>
+        <div class="faq-list">
+          <details class="reveal" open>
+            <summary>10分ではなく60分なのはなぜ？</summary>
+            <p>受験勉強の最初の1コマに合わせた設定です。長時間の強制ではなく、始めるところだけを守る考え方です。</p>
+          </details>
+          <details class="reveal">
+            <summary>このページから購入できますか？</summary>
+            <p>できません。ウラチカLP選手権用の架空商品ページなので、ボタンは飾りです。</p>
+          </details>
+          <details class="reveal">
+            <summary>写真にない機能はありますか？</summary>
+            <p>ありません。スマホ1台が入る木の箱、砂時計を返すと砂が落ちきるまでフタが開かない、という範囲で表現しています。</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="final-cta" aria-labelledby="final-title">
+        <img src="public/img/sadokei-study-scene-v1.png" alt="砂どけい箱を机に置いて勉強を始める受験生" width="1536" height="1024" loading="lazy" />
+        <div class="final-copy reveal">
+          <p class="section-kicker">SADO-KEI BOX 60</p>
+          <h2 id="final-title">今夜の「あと5分」を、砂に預ける。</h2>
+          <p>親が強く言う前に、机の上で静かに始める。砂どけい箱 60は、そんな受験期のための架空商品です。</p>
+          <a class="btn secondary" href="#top">もう一度見る</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="brand footer-brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64">
+            <path d="M18 10h28M18 54h28M24 10c0 10 16 10 16 22S24 44 24 54M40 10c0 10-16 10-16 22s16 12 16 22" />
+            <path d="M29 33h6M27 47h10" />
+          </svg>
+        </span>
+        <span>砂どけい箱 60</span>
+      </div>
+      <p>※このページはウラチカLP選手権のための架空の商品です</p>
+    </footer>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
